@@ -37,34 +37,61 @@
                 <p>Estética & Biomedicina Estética</p>
             </div>
             <nav class="nav">
-                <button class="menu-toggle" aria-label="Abrir menu">☰</button>
+                <button class="menu-toggle" aria-label="Abrir menu">
+                    <span class="hamburger"></span>
+                </button>
                 <ul class="nav-list">
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#sobre">Sobre</a></li>
-                    <li><a href="#servicos">Serviços</a></li>
-                    <li><a href="#depoimentos">Depoimentos</a></li>
-                    <li><a href="#contato">Contato</a></li>
+                    <li><a href="#home" class="nav-link active"><i class="fas fa-home"></i> <span>Home</span></a></li>
+                    <li><a href="#sobre" class="nav-link"><i class="fas fa-user"></i> <span>Sobre</span></a></li>
+                    <li><a href="#servicos" class="nav-link"><i class="fas fa-spa"></i> <span>Serviços</span></a></li>
+                    <li><a href="#depoimentos" class="nav-link"><i class="fas fa-comment"></i> <span>Depoimentos</span></a></li>
+                    <li><a href="#contato" class="nav-link cta-link"><i class="fas fa-calendar-alt"></i> <span>Agendar</span></a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
-    <!-- Hero Section -->
+      <!-- Hero Section -->
     <section id="home" class="hero">
         <div class="container">
             <div class="hero-content">
                 <div class="hero-text">
-                    <h2>Beleza com Ciência e Cuidado</h2>
-                    <p>Tratamentos estéticos personalizados com abordagem científica para resultados naturais e duradouros.</p>
-                    <a href="#contato" class="btn">Agende sua avaliação</a>
+                    <h1 class="hero-title">Beleza com <span class="highlight">Ciência</span> e <span class="highlight">Cuidado</span></h1>
+                    <p class="hero-subtitle">Tratamentos estéticos personalizados com abordagem científica para resultados naturais e duradouros.</p>
+                    <div class="hero-cta">
+                        <a href="#contato" class="btn btn-primary">Agende sua avaliação</a>
+                        <a href="#servicos" class="btn btn-secondary">Conheça nossos serviços <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    <div class="hero-features">
+                        <div class="feature-item">
+                            <i class="fas fa-certificate"></i>
+                            <span>Profissionais certificados</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-flask"></i>
+                            <span>Tecnologia de ponta</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-heart"></i>
+                            <span>Abordagem humanizada</span>
+                        </div>
+                    </div>
                 </div>
                 <div class="hero-image">
                     <div class="image-wrapper">
-                        <!-- Substitua pelo caminho real da imagem -->
-                        <img src="assets/arlene3.jpeg" alt="Arlene Melonio - Profissional de Estética">
+                        <img src="assets/arlene3.jpeg" alt="Arlene Melonio - Profissional de Estética" class="profile-image">
+                        <div class="image-decoration"></div>
+                        <div class="image-badge">
+                            <span>5+ anos</span>
+                            <small>de experiência</small>
+                        </div>
                     </div>
                 </div>
             </div>
+        </div>
+        <div class="hero-scroll-indicator">
+            <span>Role para baixo</span>
+            <i class="fas fa-chevron-down"></i>
         </div>
     </section>
 
