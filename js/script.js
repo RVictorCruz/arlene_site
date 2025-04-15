@@ -212,7 +212,7 @@ document.addEventListener('DOMContentLoaded', function() {
     whatsappBtn.addEventListener('click', function(e) {
       e.preventDefault();
       // Aqui você pode adicionar o link real do WhatsApp
-      window.open('https://wa.me/SEUNUMERO', '_blank');
+      window.open('https://wa.me/559884679903', '_blank');
     });
     
     // Ativar tooltips para ícones de informação
