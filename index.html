@@ -7,25 +7,27 @@
     <title>Arlene Melonio - Estética & Biomedicina Estética</title>
     <link rel="icon" type="image/jpg" href="/assets/icon.jpg">
     <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Playfair+Display:wght@500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-    <!-- Background animado -->
-    <div id="bg-wrap">
-        <svg viewBox="0 0 100 100" preserveAspectRatio="xMidYMid slice">
-            <defs>
-                <radialGradient id="Gradient1" cx="50%" cy="50%" fx="0.441602%" fy="50%" r=".5"><animate attributeName="fx" dur="34s" values="0%;3%;0%" repeatCount="indefinite"></animate><stop offset="0%" stop-color="rgba(255, 0, 255, 0.1)"></stop><stop offset="100%" stop-color="rgba(255, 0, 255, 0)"></stop></radialGradient>
-                <radialGradient id="Gradient2" cx="50%" cy="50%" fx="2.68147%" fy="50%" r=".5"><animate attributeName="fx" dur="23.5s" values="0%;3%;0%" repeatCount="indefinite"></animate><stop offset="0%" stop-color="rgba(255, 255, 0, 0.1)"></stop><stop offset="100%" stop-color="rgba(255, 255, 0, 0)"></stop></radialGradient>
-                <radialGradient id="Gradient3" cx="50%" cy="50%" fx="0.836536%" fy="50%" r=".5"><animate attributeName="fx" dur="21.5s" values="0%;3%;0%" repeatCount="indefinite"></animate><stop offset="0%" stop-color="rgba(0, 255, 255, 0.1)"></stop><stop offset="100%" stop-color="rgba(0, 255, 255, 0)"></stop></radialGradient>
-                <radialGradient id="Gradient4" cx="50%" cy="50%" fx="4.56417%" fy="50%" r=".5"><animate attributeName="fx" dur="23s" values="0%;5%;0%" repeatCount="indefinite"></animate><stop offset="0%" stop-color="rgba(0, 255, 0, 0.1)"></stop><stop offset="100%" stop-color="rgba(0, 255, 0, 0)"></stop></radialGradient>
-                <radialGradient id="Gradient5" cx="50%" cy="50%" fx="2.65405%" fy="50%" r=".5"><animate attributeName="fx" dur="24.5s" values="0%;5%;0%" repeatCount="indefinite"></animate><stop offset="0%" stop-color="rgba(0,0,255, 0.1)"></stop><stop offset="100%" stop-color="rgba(0,0,255, 0)"></stop></radialGradient>
-                <radialGradient id="Gradient6" cx="50%" cy="50%" fx="0.981338%" fy="50%" r=".5"><animate attributeName="fx" dur="25.5s" values="0%;5%;0%" repeatCount="indefinite"></animate><stop offset="0%" stop-color="rgba(255,0,0, 0.1)"></stop><stop offset="100%" stop-color="rgba(255,0,0, 0)"></stop></radialGradient>
-            </defs>
-            <rect x="13.744%" y="1.18473%" width="100%" height="100%" fill="url(#Gradient1)" transform="rotate(334.41 50 50)"><animate attributeName="x" dur="20s" values="25%;0%;25%" repeatCount="indefinite"></animate><animate attributeName="y" dur="21s" values="0%;25%;0%" repeatCount="indefinite"></animate><animateTransform attributeName="transform" type="rotate" from="0 50 50" to="360 50 50" dur="7s" repeatCount="indefinite"></animateTransform></rect>
-            <rect x="-2.17916%" y="35.4267%" width="100%" height="100%" fill="url(#Gradient2)" transform="rotate(255.072 50 50)"><animate attributeName="x" dur="23s" values="-25%;0%;-25%" repeatCount="indefinite"></animate><animate attributeName="y" dur="24s" values="0%;50%;0%" repeatCount="indefinite"></animate><animateTransform attributeName="transform" type="rotate" from="0 50 50" to="360 50 50" dur="12s" repeatCount="indefinite"></animateTransform>
-            </rect>
-            <rect x="9.00483%" y="14.5733%" width="100%" height="100%" fill="url(#Gradient3)" transform="rotate(139.903 50 50)"><animate attributeName="x" dur="25s" values="0%;25%;0%" repeatCount="indefinite"></animate><animate attributeName="y" dur="12s" values="0%;25%;0%" repeatCount="indefinite"></animate><animateTransform attributeName="transform" type="rotate" from="360 50 50" to="0 50 50" dur="9s" repeatCount="indefinite"></animateTransform>
-            </rect>
+    <!-- Background animado com SVG moderno -->
+    <div class="bg-animation">
+        <svg class="bg-shapes" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid slice">
+            <!-- Formas abstratas modernas -->
+            <path class="shape-1" fill="rgba(156, 39, 176, 0.1)" d="M30,-40C37.6,-28.2,41.3,-14.1,42.8,1.5C44.3,17.1,43.6,34.2,36,43.6C28.4,53,13.9,54.7,-1.7,56.4C-17.3,58.1,-34.6,59.8,-45.2,50.4C-55.8,41,-59.6,20.5,-56.8,3.7C-54,-13.1,-44.5,-26.2,-33.9,-38C-23.3,-49.8,-11.7,-60.3,1.5,-61.8C14.6,-63.3,29.3,-55.8,30,-40Z"/>
+            <path class="shape-2" fill="rgba(33, 150, 243, 0.1)" d="M20,-30C26.7,-20,33.3,-10,36.5,3.2C39.7,16.4,39.5,32.8,32.8,42.3C26.1,51.8,12.9,54.4,-2.5,56.9C-17.9,59.4,-35.8,61.8,-46.3,52.3C-56.8,42.8,-59.9,21.4,-56.5,3.5C-53.1,-14.4,-43.2,-28.8,-32.7,-38.8C-22.2,-48.8,-11.1,-54.4,1.2,-55.6C13.5,-56.8,27,-53.6,20,-30Z"/>
+            <path class="shape-3" fill="rgba(76, 175, 80, 0.1)" d="M40,-50C50.7,-36.7,57.3,-18.3,56.8,-0.6C56.3,17.1,48.7,34.2,38,45.8C27.3,57.4,13.6,63.5,-2.3,65.8C-18.2,68.1,-36.4,66.6,-47.8,55C-59.2,43.4,-63.8,21.7,-60.5,3.5C-57.2,-14.7,-46,-29.4,-34.6,-42.7C-23.2,-56,-11.6,-68,2.2,-70.2C16,-72.4,32,-64.7,40,-50Z"/>
+            
+            <!-- Efeito de partículas finas -->
+            <g class="particles">
+                <circle cx="15" cy="25" r="1" fill="rgba(255,255,255,0.3)"/>
+                <circle cx="85" cy="15" r="1.2" fill="rgba(255,255,255,0.4)"/>
+                <circle cx="45" cy="75" r="0.8" fill="rgba(255,255,255,0.3)"/>
+                <circle cx="70" cy="50" r="1.1" fill="rgba(255,255,255,0.2)"/>
+                <circle cx="25" cy="60" r="0.9" fill="rgba(255,255,255,0.3)"/>
+                <circle cx="90" cy="80" r="1.3" fill="rgba(255,255,255,0.4)"/>
+            </g>
         </svg>
     </div>
 
@@ -33,90 +35,220 @@
     <header class="header">
         <div class="container">
             <div class="logo">
-                <h1>Arlene Melonio</h1>
-                <p>Estética & Biomedicina Estética</p>
+                <svg class="logo-icon" viewBox="0 0 50 50" width="40" height="40">
+                    <path d="M25,5 C30,5 35,7 39,11 C43,15 45,20 45,25 C45,30 43,35 39,39 C35,43 30,45 25,45 C20,45 15,43 11,39 C7,35 5,30 5,25 C5,20 7,15 11,11 C15,7 20,5 25,5 Z" fill="none" stroke="#9c27b0" stroke-width="2"/>
+                    <path d="M25,15 C20,15 15,20 15,25 C15,30 20,35 25,35 C30,35 35,30 35,25 C35,20 30,15 25,15 Z" fill="#9c27b0"/>
+                    <path d="M25,10 L25,40 M10,25 L40,25" stroke="#9c27b0" stroke-width="2" stroke-linecap="round"/>
+                </svg>
+                <div class="logo-text">
+                    <h1>Arlene Melonio</h1>
+                    <p class="tagline">Ciência & Estética Integradas</p>
+                </div>
             </div>
             <nav class="nav">
                 <button class="menu-toggle" aria-label="Abrir menu">
                     <span class="hamburger"></span>
                 </button>
                 <ul class="nav-list">
-                    <li><a href="#home" class="nav-link active"><i class="fas fa-home"></i> <span>Home</span></a></li>
-                    <li><a href="#sobre" class="nav-link"><i class="fas fa-user"></i> <span>Sobre</span></a></li>
-                    <li><a href="#servicos" class="nav-link"><i class="fas fa-spa"></i> <span>Serviços</span></a></li>
-                    <li><a href="#depoimentos" class="nav-link"><i class="fas fa-comment"></i> <span>Depoimentos</span></a></li>
-                    <li><a href="#contato" class="nav-link cta-link"><i class="fas fa-calendar-alt"></i> <span>Agendar</span></a></li>
+                    <li><a href="#home" class="nav-link active">
+                        <svg class="nav-icon" viewBox="0 0 24 24" width="18" height="18">
+                            <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+                            <polyline points="9 22 9 12 15 12 15 22"></polyline>
+                        </svg>
+                        <span>Home</span></a></li>
+                    <li><a href="#sobre" class="nav-link">
+                        <svg class="nav-icon" viewBox="0 0 24 24" width="18" height="18">
+                            <circle cx="12" cy="8" r="7"></circle>
+                            <path d="M5.3 19c1.3-1.9 3.5-3 6-3s4.7 1.1 6 3"></path>
+                        </svg>
+                        <span>Sobre</span></a></li>
+                    <li><a href="#servicos" class="nav-link">
+                        <svg class="nav-icon" viewBox="0 0 24 24" width="18" height="18">
+                            <path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"></path>
+                            <path d="M13.73 21a2 2 0 0 1-3.46 0"></path>
+                        </svg>
+                        <span>Serviços</span></a></li>
+                    <li><a href="#depoimentos" class="nav-link">
+                        <svg class="nav-icon" viewBox="0 0 24 24" width="18" height="18">
+                            <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+                        </svg>
+                        <span>Depoimentos</span></a></li>
+                    <li><a href="#contato" class="nav-link cta-link">
+                        <svg class="nav-icon" viewBox="0 0 24 24" width="18" height="18">
+                            <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                            <line x1="16" y1="2" x2="16" y2="6"></line>
+                            <line x1="8" y1="2" x2="8" y2="6"></line>
+                            <line x1="3" y1="10" x2="21" y2="10"></line>
+                        </svg>
+                        <span>Agendar</span></a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
-      <!-- Hero Section -->
+    <!-- Hero Section -->
     <section id="home" class="hero">
         <div class="container">
             <div class="hero-content">
                 <div class="hero-text">
-                    <h1 class="hero-title">Beleza com <span class="highlight">Ciência</span> e <span class="highlight">Cuidado</span></h1>
-                    <p class="hero-subtitle">Tratamentos estéticos personalizados com abordagem científica para resultados naturais e duradouros.</p>
+                    <h2 class="hero-title">
+                        <span class="title-line">Transformação Estética</span>
+                        <span class="title-line">com <span class="highlight">Base Científica</span></span>
+                    </h2>
+                    <p class="hero-subtitle">Protocolos personalizados que unem técnica estética e conhecimento biomédico para resultados naturais e duradouros.</p>
                     <div class="hero-cta">
-                        <a href="#contato" class="btn btn-primary">Agende sua avaliação</a>
-                        <a href="#servicos" class="btn btn-secondary">Conheça nossos serviços <i class="fas fa-arrow-right"></i></a>
+                        <a href="#contato" class="btn btn-primary">
+                            <svg class="btn-icon" viewBox="0 0 24 24" width="16" height="16">
+                                <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+                            </svg>
+                            Agende sua avaliação
+                        </a>
+                        <a href="#servicos" class="btn btn-secondary">
+                            <svg class="btn-icon" viewBox="0 0 24 24" width="16" height="16">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <line x1="12" y1="8" x2="12" y2="12"></line>
+                                <line x1="12" y1="16" x2="12.01" y2="16"></line>
+                            </svg>
+                            Nossos serviços
+                        </a>
                     </div>
                     <div class="hero-features">
                         <div class="feature-item">
-                            <i class="fas fa-certificate"></i>
-                            <span>Profissionais certificados</span>
+                            <svg class="feature-icon" viewBox="0 0 24 24" width="20" height="20">
+                                <path d="M12 2L4 7v10l8 5 8-5V7L12 2z"></path>
+                                <path d="M7.5 10.5l4 2.5 4-2.5"></path>
+                                <path d="M7.5 13.5l4 2.5 4-2.5"></path>
+                            </svg>
+                            <span>Formação em Biomedicina</span>
                         </div>
                         <div class="feature-item">
-                            <i class="fas fa-flask"></i>
-                            <span>Tecnologia de ponta</span>
+                            <svg class="feature-icon" viewBox="0 0 24 24" width="20" height="20">
+                                <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+                            </svg>
+                            <span>Tecnologia Avançada</span>
                         </div>
                         <div class="feature-item">
-                            <i class="fas fa-heart"></i>
-                            <span>Abordagem humanizada</span>
+                            <svg class="feature-icon" viewBox="0 0 24 24" width="20" height="20">
+                                <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                                <circle cx="12" cy="7" r="4"></circle>
+                            </svg>
+                            <span>Abordagem Humanizada</span>
                         </div>
                     </div>
                 </div>
                 <div class="hero-image">
                     <div class="image-wrapper">
-                        <img src="assets/arlene3.jpeg" alt="Arlene Melonio - Profissional de Estética" class="profile-image">
-                        <div class="image-decoration"></div>
+                        <div class="image-frame">
+                            <svg class="frame-shape" viewBox="0 0 100 100" preserveAspectRatio="none">
+                                <path d="M0,0 C20,10 10,20 0,30 L0,70 C10,80 20,90 0,100 L60,100 C80,90 90,80 100,70 L100,30 C90,20 80,10 60,0 L0,0 Z" fill="#fff"/>
+                            </svg>
+                            <img src="assets/arlene3.jpeg" alt="Arlene Melonio - Profissional de Estética" class="profile-image">
+                        </div>
                         <div class="image-badge">
-                            <span>5+ anos</span>
+                            <svg class="badge-bg" viewBox="0 0 100 100">
+                                <path d="M50,0 C60,30 80,50 100,50 C80,50 60,70 50,100 C40,70 20,50 0,50 C20,50 40,30 50,0 Z" fill="#9c27b0"/>
+                            </svg>
+                            <span>15+ anos</span>
                             <small>de experiência</small>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="hero-scroll-indicator">
-            <span>Role para baixo</span>
-            <i class="fas fa-chevron-down"></i>
-        </div>
     </section>
 
     <!-- Sobre Mim -->
     <section id="sobre" class="sobre section-padding">
         <div class="container">
-            <h2 class="section-title">Sobre Mim</h2>
+            <div class="section-header">
+                <h2 class="section-title">Sobre Mim</h2>
+                <svg class="section-divider" viewBox="0 0 100 10" preserveAspectRatio="none">
+                    <path d="M0,5 Q25,10 50,5 T100,5" fill="none" stroke="#9c27b0" stroke-width="2"/>
+                </svg>
+            </div>
             <div class="sobre-content">
                 <div class="sobre-img">
-                    <div class="img-placeholder">
-                        <img src="assets/arlene.jpeg" alt="Descrição da imagem">
+                    <div class="img-container">
+                        <svg class="img-mask" viewBox="0 0 100 100" preserveAspectRatio="none">
+                            <path d="M0,0 C0,0 100,0 100,0 C100,40 100,60 100,100 C100,100 0,100 0,100 C0,60 0,40 0,0 Z" fill="#fff"/>
+                        </svg>
+                        <img src="assets/arlene.jpeg" alt="Arlene Melonio - Profissional de Estética">
+                    </div>
+                    <div class="signature">
+                        <svg viewBox="0 0 200 60" width="120">
+                            <path d="M10,40 Q30,10 50,40 T90,40" fill="none" stroke="#333" stroke-width="2"/>
+                            <text x="100" y="40" font-family="'Playfair Display', serif" font-size="24" fill="#9c27b0">Arlene Melonio</text>
+                        </svg>
                     </div>
                 </div>
                 <div class="sobre-text">
-                    <p>Meu nome é Arlene Melonio, sou técnica em estética e estou em transição para a biomedicina estética. Minha abordagem combina conhecimento técnico com uma visão científica dos tratamentos estéticos.</p>
-                    <p>Acredito que a beleza deve ser trabalhada com ética, responsabilidade e personalização, respeitando a individualidade de cada cliente.</p>
+                    <p class="intro">Meu nome é <strong>Arlene Melonio</strong>, sou técnica em estética e estou em transição para a biomedicina estética. Minha abordagem combina conhecimento técnico com uma visão científica dos tratamentos estéticos.</p>
+                    
+                    <div class="bio-highlight">
+                        <svg class="quote-icon" viewBox="0 0 24 24" width="24" height="24">
+                            <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+                        </svg>
+                        <p>Acredito que a beleza deve ser trabalhada com ética, responsabilidade e personalização, respeitando a individualidade de cada cliente.</p>
+                    </div>
+                    
                     <p>Minha formação contínua em biomedicina estética me permite oferecer tratamentos cada vez mais seguros e eficazes, com embasamento científico.</p>
+                    
                     <div class="diferenciais">
                         <h3>Meus diferenciais:</h3>
                         <ul>
-                            <li>Abordagem científica dos tratamentos</li>
-                            <li>Protocolos personalizados</li>
-                            <li>Ética profissional</li>
-                            <li>Atualização constante</li>
+                            <li>
+                                <svg class="check-icon" viewBox="0 0 24 24" width="16" height="16">
+                                    <polyline points="20 6 9 17 4 12"></polyline>
+                                </svg>
+                                Abordagem científica dos tratamentos
+                            </li>
+                            <li>
+                                <svg class="check-icon" viewBox="0 0 24 24" width="16" height="16">
+                                    <polyline points="20 6 9 17 4 12"></polyline>
+                                </svg>
+                                Protocolos personalizados
+                            </li>
+                            <li>
+                                <svg class="check-icon" viewBox="0 0 24 24" width="16" height="16">
+                                    <polyline points="20 6 9 17 4 12"></polyline>
+                                </svg>
+                                Ética profissional
+                            </li>
+                            <li>
+                                <svg class="check-icon" viewBox="0 0 24 24" width="16" height="16">
+                                    <polyline points="20 6 9 17 4 12"></polyline>
+                                </svg>
+                                Atualização constante
+                            </li>
                         </ul>
+                    </div>
+                    
+                    <div class="education">
+                        <h4>Formação Acadêmica:</h4>
+                        <div class="education-item">
+                            <svg class="edu-icon" viewBox="0 0 24 24" width="18" height="18">
+                                <path d="M12 2.5L2 7.5V17.5L12 22.5L22 17.5V7.5L12 2.5Z" fill="none" stroke="#9c27b0" stroke-width="2"/>
+                                <path d="M12 12L22 7.5" fill="none" stroke="#9c27b0" stroke-width="2"/>
+                                <path d="M12 12V22.5" fill="none" stroke="#9c27b0" stroke-width="2"/>
+                                <path d="M12 12L2 7.5" fill="none" stroke="#9c27b0" stroke-width="2"/>
+                            </svg>
+                            <div>
+                                <strong>Técnica em Estética</strong>
+                                <span>Concluído - 2023</span>
+                            </div>
+                        </div>
+                        <div class="education-item">
+                            <svg class="edu-icon" viewBox="0 0 24 24" width="18" height="18">
+                                <path d="M12 2.5L2 7.5V17.5L12 22.5L22 17.5V7.5L12 2.5Z" fill="none" stroke="#9c27b0" stroke-width="2"/>
+                                <path d="M12 12L22 7.5" fill="none" stroke="#9c27b0" stroke-width="2"/>
+                                <path d="M12 12V22.5" fill="none" stroke="#9c27b0" stroke-width="2"/>
+                                <path d="M12 12L2 7.5" fill="none" stroke="#9c27b0" stroke-width="2"/>
+                            </svg>
+                            <div>
+                                <strong>Biomedicina Estética</strong>
+                                <span>Em andamento - Previsão 2028</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -126,35 +258,181 @@
     <!-- Serviços -->
     <section id="servicos" class="servicos section-padding">
         <div class="container">
-            <h2 class="section-title">Serviços</h2>
-            <div class="servicos-grid">
-                <div class="servico-card">
-                    <h3>Estética Facial</h3>
-                    <ul>
-                        <li>Limpeza de pele profissional</li>
-                        <li>Peeling químico</li>
-                        <li>Microagulhamento</li>
-                        <li>Hidratação profunda</li>
-                    </ul>
+            <div class="section-header">
+                <h2 class="section-title">Serviços Especializados</h2>
+                <svg class="section-divider" viewBox="0 0 100 10" preserveAspectRatio="none">
+                    <path d="M0,5 Q25,10 50,5 T100,5" fill="none" stroke="#9c27b0" stroke-width="2"/>
+                </svg>
+            </div>
+            
+            <div class="servicos-tabs">
+                <div class="tab-buttons">
+                    <button class="tab-btn active" data-tab="facial">Facial</button>
+                    <button class="tab-btn" data-tab="corporal">Corporal</button>
+                    <button class="tab-btn" data-tab="futuro">Futuros</button>
                 </div>
-                <div class="servico-card">
-                    <h3>Estética Corporal</h3>
-                    <ul>
-                        <li>Massagem modeladora</li>
-                        <li>Drenagem linfática</li>
-                        <li>Tratamento para celulite</li>
-                        <li>Redução de medidas</li>
-                    </ul>
+                
+                <div class="tab-content active" id="facial">
+                    <div class="servicos-grid">
+                        <div class="servico-card">
+                            <div class="card-icon">
+                                <svg viewBox="0 0 24 24" width="40" height="40">
+                                    <circle cx="12" cy="9" r="3" fill="none" stroke="#9c27b0" stroke-width="2"/>
+                                    <path d="M12 15c-3.5 0-6 2.5-6 6" fill="none" stroke="#9c27b0" stroke-width="2"/>
+                                    <path d="M18 21c0-3.3-2.7-6-6-6" fill="none" stroke="#9c27b0" stroke-width="2"/>
+                                </svg>
+                            </div>
+                            <h3>Limpeza de Pele Profissional</h3>
+                            <p>Desobstrução de poros e renovação celular com técnica especializada.</p>
+                            <ul>
+                                <li>Remoção de comedões</li>
+                                <li>Esfoliação controlada</li>
+                                <li>Hidratação final</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="servico-card">
+                            <div class="card-icon">
+                                <svg viewBox="0 0 24 24" width="40" height="40">
+                                    <path d="M12 2a10 10 0 1 0 10 10 4 4 0 0 1-5-5 4 4 0 0 1-5-5" fill="none" stroke="#9c27b0" stroke-width="2"/>
+                                </svg>
+                            </div>
+                            <h3>Peeling Químico</h3>
+                            <p>Renovação da camada córnea com ativos específicos para cada tipo de pele.</p>
+                            <ul>
+                                <li>Graduação personalizada</li>
+                                <li>Redução de manchas</li>
+                                <li>Uniformização do tom</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="servico-card">
+                            <div class="card-icon">
+                                <svg viewBox="0 0 24 24" width="40" height="40">
+                                    <circle cx="12" cy="12" r="10" fill="none" stroke="#9c27b0" stroke-width="2"/>
+                                    <line x1="12" y1="8" x2="12" y2="12" stroke="#9c27b0" stroke-width="2"/>
+                                    <line x1="12" y1="16" x2="12.01" y2="16" stroke="#9c27b0" stroke-width="2"/>
+                                </svg>
+                            </div>
+                            <h3>Microagulhamento</h3>
+                            <p>Estímulo controlado de colágeno para tratamento de cicatrizes e rugas.</p>
+                            <ul>
+                                <li>Agulhas descartáveis</li>
+                                <li>Associação com ativos</li>
+                                <li>Protocolo personalizado</li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
-                <div class="servico-card destaque">
-                    <h3>Futuros Serviços</h3>
-                    <p class="badge">Em breve</p>
-                    <ul>
-                        <li>Bioestimuladores de colágeno</li>
-                        <li>Harmonização facial</li>
-                        <li>Preenchimentos</li>
-                        <li>Toxina botulínica</li>
-                    </ul>
+                
+                <div class="tab-content" id="corporal">
+                    <div class="servicos-grid">
+                        <div class="servico-card">
+                            <div class="card-icon">
+                                <svg viewBox="0 0 24 24" width="40" height="40">
+                                    <path d="M4 12h16M12 4v16" fill="none" stroke="#9c27b0" stroke-width="2"/>
+                                </svg>
+                            </div>
+                            <h3>Massagem Modeladora</h3>
+                            <p>Técnicas manuais para redução de medidas e melhora da silhueta.</p>
+                            <ul>
+                                <li>Ativação circulatória</li>
+                                <li>Quebra de adipócitos</li>
+                                <li>Melhora da flacidez</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="servico-card">
+                            <div class="card-icon">
+                                <svg viewBox="0 0 24 24" width="40" height="40">
+                                    <path d="M22 12h-4l-3 9L9 3l-3 9H2" fill="none" stroke="#9c27b0" stroke-width="2"/>
+                                </svg>
+                            </div>
+                            <h3>Drenagem Linfática</h3>
+                            <p>Manobras específicas para estimular o sistema linfático.</p>
+                            <ul>
+                                <li>Redução de edemas</li>
+                                <li>Desintoxicação</li>
+                                <li>Melhora da circulação</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="servico-card">
+                            <div class="card-icon">
+                                <svg viewBox="0 0 24 24" width="40" height="40">
+                                    <path d="M12 2a10 10 0 1 0 10 10 4 4 0 0 1-5-5 4 4 0 0 1-5-5" fill="none" stroke="#9c27b0" stroke-width="2"/>
+                                    <path d="M8.5 8.5v7" fill="none" stroke="#9c27b0" stroke-width="2"/>
+                                    <path d="M15.5 8.5v7" fill="none" stroke="#9c27b0" stroke-width="2"/>
+                                </svg>
+                            </div>
+                            <h3>Tratamento para Celulite</h3>
+                            <p>Protocolo combinado para melhorar o aspecto da pele com celulite.</p>
+                            <ul>
+                                <li>Endermologia</li>
+                                <li>Radiofrequência</li>
+                                <li>Ativos específicos</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="tab-content" id="futuro">
+                    <div class="servicos-grid">
+                        <div class="servico-card destaque">
+                            <div class="card-icon">
+                                <svg viewBox="0 0 24 24" width="40" height="40">
+                                    <path d="M12 2a10 10 0 1 0 10 10 4 4 0 0 1-5-5 4 4 0 0 1-5-5" fill="none" stroke="#9c27b0" stroke-width="2"/>
+                                    <path d="M8.5 8.5v7" fill="none" stroke="#9c27b0" stroke-width="2"/>
+                                    <path d="M15.5 8.5v7" fill="none" stroke="#9c27b0" stroke-width="2"/>
+                                </svg>
+                            </div>
+                            <h3>Bioestimuladores de Colágeno</h3>
+                            <p class="badge">Em breve</p>
+                            <p>Indução de neocolagênese para tratamento de flacidez e rejuvenescimento.</p>
+                            <ul>
+                                <li>Ácido polilático</li>
+                                <li>Hidroxiapatita de cálcio</li>
+                                <li>Fios de PDO</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="servico-card destaque">
+                            <div class="card-icon">
+                                <svg viewBox="0 0 24 24" width="40" height="40">
+                                    <circle cx="12" cy="12" r="10" fill="none" stroke="#9c27b0" stroke-width="2"/>
+                                    <path d="M8 14s1.5 2 4 2 4-2 4-2" fill="none" stroke="#9c27b0" stroke-width="2"/>
+                                    <line x1="9" y1="9" x2="9.01" y2="9" stroke="#9c27b0" stroke-width="2"/>
+                                    <line x1="15" y1="9" x2="15.01" y2="9" stroke="#9c27b0" stroke-width="2"/>
+                                </svg>
+                            </div>
+                            <h3>Harmonização Facial</h3>
+                            <p class="badge">Em breve</p>
+                            <p>Proporção e equilíbrio das feições com técnicas minimamente invasivas.</p>
+                            <ul>
+                                <li>Avaliação biométrica</li>
+                                <li>Técnica microinjetável</li>
+                                <li>Resultados naturais</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="servico-card destaque">
+                            <div class="card-icon">
+                                <svg viewBox="0 0 24 24" width="40" height="40">
+                                    <path d="M12 2a10 10 0 1 0 10 10 4 4 0 0 1-5-5 4 4 0 0 1-5-5" fill="none" stroke="#9c27b0" stroke-width="2"/>
+                                    <path d="M8.5 8.5v7" fill="none" stroke="#9c27b0" stroke-width="2"/>
+                                    <path d="M15.5 8.5v7" fill="none" stroke="#9c27b0" stroke-width="2"/>
+                                </svg>
+                            </div>
+                            <h3>Toxina Botulínica</h3>
+                            <p class="badge">Em breve</p>
+                            <p>Tratamento de rugas dinâmicas e hiperhidrose com técnica precisa.</p>
+                            <ul>
+                                <li>Dosagem personalizada</li>
+                                <li>Ponto de aplicação estratégico</li>
+                                <li>Resultados naturais</li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -163,45 +441,136 @@
     <!-- Depoimentos -->
     <section id="depoimentos" class="depoimentos section-padding">
         <div class="container">
-            <h2 class="section-title">Depoimentos</h2>
+            <div class="section-header">
+                <h2 class="section-title">Depoimentos</h2>
+                <svg class="section-divider" viewBox="0 0 100 10" preserveAspectRatio="none">
+                    <path d="M0,5 Q25,10 50,5 T100,5" fill="none" stroke="#9c27b0" stroke-width="2"/>
+                </svg>
+            </div>
+            
             <div class="depoimentos-slider">
                 <div class="depoimento-card">
                     <div class="depoimento-img">
-                        <div class="img-placeholder">
-                            <img src="assets/cliente1.jpg" alt="Descrição da imagem">
-                        </div>
+                        <svg class="quote-bg" viewBox="0 0 100 100" preserveAspectRatio="none">
+                            <path d="M0,0 C20,20 30,30 0,50 C30,70 20,80 0,100 L100,100 C80,80 70,70 100,50 C70,30 80,20 100,0 L0,0 Z" fill="#f5f5f5"/>
+                        </svg>
+                        <img src="assets/cliente1.jpg" alt="Cliente Maria S.">
                     </div>
                     <div class="depoimento-text">
-                        <p>"A Arlene transformou minha pele! Profissional extremamente competente e atenciosa."</p>
-                        <span>- Maria S.</span>
+                        <svg class="quote-icon" viewBox="0 0 24 24" width="24" height="24">
+                            <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+                        </svg>
+                        <p>"A Arlene transformou minha pele! Profissional extremamente competente e atenciosa. Os resultados foram além do que eu esperava."</p>
+                        <div class="client-info">
+                            <span class="client-name">Maria S.</span>
+                            <div class="client-rating">
+                                <svg viewBox="0 0 24 24" width="16" height="16" fill="#ffc107">
+                                    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+                                </svg>
+                                <svg viewBox="0 0 24 24" width="16" height="16" fill="#ffc107">
+                                    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+                                </svg>
+                                <svg viewBox="0 0 24 24" width="16" height="16" fill="#ffc107">
+                                    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+                                </svg>
+                                <svg viewBox="0 0 24 24" width="16" height="16" fill="#ffc107">
+                                    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+                                </svg>
+                                <svg viewBox="0 0 24 24" width="16" height="16" fill="#ffc107">
+                                    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+                                </svg>
+                            </div>
+                        </div>
                     </div>
                 </div>
+                
                 <div class="depoimento-card">
                     <div class="depoimento-img">
-                        <div class="img-placeholder">
-                            <img src="assets/cliente2.jpg" alt="Descrição da imagem">
-                        </div>
+                        <svg class="quote-bg" viewBox="0 0 100 100" preserveAspectRatio="none">
+                            <path d="M0,0 C20,20 30,30 0,50 C30,70 20,80 0,100 L100,100 C80,80 70,70 100,50 C70,30 80,20 100,0 L0,0 Z" fill="#f5f5f5"/>
+                        </svg>
+                        <img src="assets/cliente2.jpg" alt="Cliente Ana L.">
                     </div>
                     <div class="depoimento-text">
-                        <p>"Resultados visíveis já na primeira sessão. Recomendo muito!"</p>
-                        <span>- Ana L.</span>
+                        <svg class="quote-icon" viewBox="0 0 24 24" width="24" height="24">
+                            <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+                        </svg>
+                        <p>"Resultados visíveis já na primeira sessão. A abordagem científica da Arlene faz toda a diferença no tratamento. Recomendo muito!"</p>
+                        <div class="client-info">
+                            <span class="client-name">Ana L.</span>
+                            <div class="client-rating">
+                                <svg viewBox="0 0 24 24" width="16" height="16" fill="#ffc107">
+                                    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+                                </svg>
+                                <svg viewBox="0 0 24 24" width="16" height="16" fill="#ffc107">
+                                    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+                                </svg>
+                                <svg viewBox="0 0 24 24" width="16" height="16" fill="#ffc107">
+                                    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+                                </svg>
+                                <svg viewBox="0 0 24 24" width="16" height="16" fill="#ffc107">
+                                    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+                                </svg>
+                                <svg viewBox="0 0 24 24" width="16" height="16" fill="#ffc107">
+                                    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+                                </svg>
+                            </div>
+                        </div>
                     </div>
                 </div>
+                
                 <div class="depoimento-card">
                     <div class="depoimento-img">
-                        <div class="img-placeholder">
-                            <img src="assets/cliente3.jpg" alt="Descrição da imagem">
-                        </div>
+                        <svg class="quote-bg" viewBox="0 0 100 100" preserveAspectRatio="none">
+                            <path d="M0,0 C20,20 30,30 0,50 C30,70 20,80 0,100 L100,100 C80,80 70,70 100,50 C70,30 80,20 100,0 L0,0 Z" fill="#f5f5f5"/>
+                        </svg>
+                        <img src="assets/cliente3.jpg" alt="Cliente Carla R.">
                     </div>
                     <div class="depoimento-text">
-                        <p>"Conhecimento técnico impressionante. Sinto que estou em boas mãos."</p>
-                        <span>- Carla R.</span>
+                        <svg class="quote-icon" viewBox="0 0 24 24" width="24" height="24">
+                            <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+                        </svg>
+                        <p>"Conhecimento técnico impressionante. Sinto que estou em boas mãos. A Arlene explica cada procedimento com clareza e embasamento científico."</p>
+                        <div class="client-info">
+                            <span class="client-name">Carla R.</span>
+                            <div class="client-rating">
+                                <svg viewBox="0 0 24 24" width="16" height="16" fill="#ffc107">
+                                    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+                                </svg>
+                                <svg viewBox="0 0 24 24" width="16" height="16" fill="#ffc107">
+                                    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+                                </svg>
+                                <svg viewBox="0 0 24 24" width="16" height="16" fill="#ffc107">
+                                    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+                                </svg>
+                                <svg viewBox="0 0 24 24" width="16" height="16" fill="#ffc107">
+                                    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+                                </svg>
+                                <svg viewBox="0 0 24 24" width="16" height="16" fill="#e0e0e0">
+                                    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+                                </svg>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
+            
             <div class="slider-controls">
-                <button class="slider-prev">❮</button>
-                <button class="slider-next">❯</button>
+                <button class="slider-prev">
+                    <svg viewBox="0 0 24 24" width="24" height="24">
+                        <polyline points="15 18 9 12 15 6" fill="none" stroke="#9c27b0" stroke-width="2"/>
+                    </svg>
+                </button>
+                <div class="slider-dots">
+                    <span class="dot active"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                </div>
+                <button class="slider-next">
+                    <svg viewBox="0 0 24 24" width="24" height="24">
+                        <polyline points="9 18 15 12 9 6" fill="none" stroke="#9c27b0" stroke-width="2"/>
+                    </svg>
+                </button>
             </div>
         </div>
     </section>
@@ -209,39 +578,141 @@
     <!-- Contato -->
     <section id="contato" class="contato section-padding">
         <div class="container">
-            <h2 class="section-title">Contato</h2>
+            <div class="section-header">
+                <h2 class="section-title">Agende Sua Consulta</h2>
+                <svg class="section-divider" viewBox="0 0 100 10" preserveAspectRatio="none">
+                    <path d="M0,5 Q25,10 50,5 T100,5" fill="none" stroke="#9c27b0" stroke-width="2"/>
+                </svg>
+            </div>
+            
             <div class="contato-content">
                 <div class="contato-form">
                     <form id="form-contato">
                         <div class="form-group">
-                            <label for="nome">Nome:</label>
+                            <label for="nome">
+                                <svg viewBox="0 0 24 24" width="18" height="18">
+                                    <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                                    <circle cx="12" cy="7" r="4"></circle>
+                                </svg>
+                                Nome:
+                            </label>
                             <input type="text" id="nome" name="nome" required>
                         </div>
                         <div class="form-group">
-                            <label for="email">Email:</label>
+                            <label for="email">
+                                <svg viewBox="0 0 24 24" width="18" height="18">
+                                    <rect x="2" y="4" width="20" height="16" rx="2"></rect>
+                                    <path d="M22 7l-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+                                </svg>
+                                Email:
+                            </label>
                             <input type="email" id="email" name="email" required>
                         </div>
                         <div class="form-group">
-                            <label for="telefone">Telefone:</label>
+                            <label for="telefone">
+                                <svg viewBox="0 0 24 24" width="18" height="18">
+                                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                                </svg>
+                                Telefone:
+                            </label>
                             <input type="tel" id="telefone" name="telefone">
                         </div>
                         <div class="form-group">
-                            <label for="mensagem">Mensagem:</label>
+                            <label for="servico">
+                                <svg viewBox="0 0 24 24" width="18" height="18">
+                                    <path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"></path>
+                                    <path d="M13.73 21a2 2 0 0 1-3.46 0"></path>
+                                </svg>
+                                Serviço de interesse:
+                            </label>
+                            <select id="servico" name="servico">
+                                <option value="">Selecione um serviço</option>
+                                <option value="limpeza">Limpeza de Pele</option>
+                                <option value="peeling">Peeling Químico</option>
+                                <option value="microagulhamento">Microagulhamento</option>
+                                <option value="massagem">Massagem Modeladora</option>
+                                <option value="drenagem">Drenagem Linfática</option>
+                                <option value="outro">Outro</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="mensagem">
+                                <svg viewBox="0 0 24 24" width="18" height="18">
+                                    <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+                                </svg>
+                                Mensagem:
+                            </label>
                             <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
                         </div>
-                        <button type="submit" class="btn">Enviar Mensagem</button>
+                        <button type="submit" class="btn btn-primary">
+                            <svg viewBox="0 0 24 24" width="18" height="18">
+                                <line x1="22" y1="2" x2="11" y2="13"></line>
+                                <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                            </svg>
+                            Enviar Mensagem
+                        </button>
                     </form>
                 </div>
                 <div class="contato-info">
-                    <h3>Informações de Contato</h3>
-                    <p><strong>Email:</strong> contato@arlenemelonio.com</p>
-                    <p><strong>WhatsApp:</strong> (XX) XXXX-XXXX</p>
-                    <p><strong>Instagram:</strong> @arlenemelonio.estetica</p>
+                    <div class="info-card">
+                        <h3>Informações de Contato</h3>
+                        <div class="info-item">
+                            <svg viewBox="0 0 24 24" width="24" height="24">
+                                <rect x="2" y="4" width="20" height="16" rx="2"></rect>
+                                <path d="M22 7l-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+                            </svg>
+                            <div>
+                                <strong>Email</strong>
+                                <p>contato@arlenemelonio.com</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <svg viewBox="0 0 24 24" width="24" height="24">
+                                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                            </svg>
+                            <div>
+                                <strong>WhatsApp</strong>
+                                <p>(XX) XXXX-XXXX</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <svg viewBox="0 0 24 24" width="24" height="24">
+                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                            </svg>
+                            <div>
+                                <strong>Instagram</strong>
+                                <p>@arlenemelonio.estetica</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <svg viewBox="0 0 24 24" width="24" height="24">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                <circle cx="12" cy="10" r="3"></circle>
+                            </svg>
+                            <div>
+                                <strong>Endereço</strong>
+                                <p>Rua Exemplo, 123 - Centro</p>
+                                <p>Sua Cidade - Estado</p>
+                            </div>
+                        </div>
+                    </div>
                     
-                    <div class="social-links">
-                        <a href="#" class="social-icon whatsapp">WhatsApp</a>
-                        <a href="#" class="social-icon instagram">Instagram</a>
-                        <a href="#" class="social-icon email">Email</a>
+                    <div class="horario-card">
+                        <h3>Horário de Atendimento</h3>
+                        <div class="horario-item">
+                            <span>Segunda a Sexta</span>
+                            <span>09:00 - 18:00</span>
+                        </div>
+                        <div class="horario-item">
+                            <span>Sábado</span>
+                            <span>09:00 - 13:00</span>
+                        </div>
+                        <div class="horario-item closed">
+                            <span>Domingo</span>
+                            <span>Fechado</span>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -252,35 +723,103 @@
     <footer class="footer">
         <div class="container">
             <div class="footer-content">
-                <div class="footer-col">
-                    <h3>Arlene Melonio</h3>
-                    <p>Estética & Biomedicina Estética</p>
-                    <p>Beleza com ciência e cuidado</p>
+                <div class="footer-col logo-col">
+                    <div class="footer-logo">
+                        <svg class="logo-icon" viewBox="0 0 50 50" width="30" height="30">
+                            <path d="M25,5 C30,5 35,7 39,11 C43,15 45,20 45,25 C45,30 43,35 39,39 C35,43 30,45 25,45 C20,45 15,43 11,39 C7,35 5,30 5,25 C5,20 7,15 11,11 C15,7 20,5 25,5 Z" fill="none" stroke="#fff" stroke-width="2"/>
+                            <path d="M25,15 C20,15 15,20 15,25 C15,30 20,35 25,35 C30,35 35,30 35,25 C35,20 30,15 25,15 Z" fill="#fff"/>
+                            <path d="M25,10 L25,40 M10,25 L40,25" stroke="#fff" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                        <div>
+                            <h3>Arlene Melonio</h3>
+                            <p>Ciência & Estética Integradas</p>
+                        </div>
+                    </div>
+                    <p class="footer-about">Profissional qualificada oferecendo tratamentos estéticos com embasamento científico e abordagem humanizada.</p>
+                    <div class="footer-social">
+                        <a href="#" class="social-link">
+                            <svg viewBox="0 0 24 24" width="20" height="20">
+                                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link">
+                            <svg viewBox="0 0 24 24" width="20" height="20">
+                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link">
+                            <svg viewBox="0 0 24 24" width="20" height="20">
+                                <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path>
+                            </svg>
+                        </a>
+                    </div>
                 </div>
+                
                 <div class="footer-col">
                     <h3>Links Rápidos</h3>
                     <ul>
                         <li><a href="#home">Home</a></li>
-                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#sobre">Sobre Mim</a></li>
                         <li><a href="#servicos">Serviços</a></li>
+                        <li><a href="#depoimentos">Depoimentos</a></li>
                         <li><a href="#contato">Contato</a></li>
                     </ul>
                 </div>
+                
+                <div class="footer-col">
+                    <h3>Serviços</h3>
+                    <ul>
+                        <li><a href="#servicos">Estética Facial</a></li>
+                        <li><a href="#servicos">Estética Corporal</a></li>
+                        <li><a href="#servicos">Biomedicina Estética</a></li>
+                        <li><a href="#servicos">Tratamentos Personalizados</a></li>
+                    </ul>
+                </div>
+                
                 <div class="footer-col">
                     <h3>Contato</h3>
-                    <p>contato@arlenemelonio.com</p>
-                    <p>(XX) XXXX-XXXX</p>
+                    <ul>
+                        <li>
+                            <svg viewBox="0 0 24 24" width="16" height="16">
+                                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                            </svg>
+                            (XX) XXXX-XXXX
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24" width="16" height="16">
+                                <rect x="2" y="4" width="20" height="16" rx="2"></rect>
+                                <path d="M22 7l-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+                            </svg>
+                            contato@arlenemelonio.com
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24" width="16" height="16">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                <circle cx="12" cy="10" r="3"></circle>
+                            </svg>
+                            Rua Exemplo, 123 - Centro
+                        </li>
+                    </ul>
                 </div>
             </div>
+            
             <div class="footer-bottom">
                 <p>&copy; 2023 Arlene Melonio - Todos os direitos reservados</p>
+                <div class="footer-links">
+                    <a href="#">Política de Privacidade</a>
+                    <a href="#">Termos de Serviço</a>
+                </div>
             </div>
         </div>
     </footer>
 
     <!-- Botão do WhatsApp -->
     <a href="#" class="whatsapp-float">
-        <img src="assets/whatsapp.png" alt="WhatsApp">
+        <svg viewBox="0 0 24 24" width="28" height="28">
+            <path d="M19.05 4.91A9.816 9.816 0 0 0 12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01zm-7.01 15.24c-1.48 0-2.93-.4-4.2-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.264 8.264 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.24-8.24 2.2 0 4.27.86 5.82 2.42a8.183 8.183 0 0 1 2.41 5.83c.02 4.54-3.68 8.23-8.22 8.23zm4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.12-.17.25-.64.81-.78.97-.14.17-.29.19-.54.06-.25-.12-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.02-.38.11-.51.11-.11.25-.29.37-.43s.17-.25.25-.41c.08-.17.04-.31-.02-.43s-.56-1.34-.76-1.84c-.2-.48-.41-.42-.56-.43h-.48c-.17 0-.43.06-.66.31-.22.25-.86.85-.86 2.07 0 1.22.89 2.4 1.01 2.56.12.17 1.75 2.67 4.23 3.74.59.26 1.22.41 1.87.51.59.1 1.13.09 1.56.05.48-.04 1.47-.6 1.67-1.18.21-.58.21-1.07.14-1.18-.07-.1-.23-.16-.48-.28z" fill="#fff"/>
+        </svg>
     </a>
 
     <script src="js/script.js"></script>
